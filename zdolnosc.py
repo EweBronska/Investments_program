@@ -3,13 +3,19 @@ def zdolnosc(wiek: int, zdfinans: int):
 
     if wiek < 18:
         punkty += 0
-    if wiek > 70:
+    elif wiek >= 18:
         punkty += 1
-    else:
-        punkty += 2
+    elif wiek > 80:
+        punkty += 0
     if zdfinans == 0:
         punkty = 0
-    if zdfins > 1:
+    elif zdfinans >= 1:
         punkty += 1
+    print(punkty)
     if punkty >= 2:
         return True
+
+
+
+wiek = 20
+zdfinans = 5
