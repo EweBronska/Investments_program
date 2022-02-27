@@ -11,11 +11,8 @@ def zdolnosc(wiek, zdfinans):
         punkty = 0
     elif zdfinans >= 1:
         punkty += 1
-    print(punkty)
     if punkty >= 2:
         return True
 
 
 
-wiek = 20
-zdfinans = 5
