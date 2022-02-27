@@ -1,4 +1,4 @@
-import przeliczaniePLN.py
+from przeliczaniePLN import przeliczWaluta
 
 def podajInwestycje():
     if przeliczWaluta() < 200:

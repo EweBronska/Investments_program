@@ -1,4 +1,4 @@
-def zdolnosc(wiek: int, zdfinans: int):
+def zdolnosc(wiek, zdfinans):
     punkty = 0
 
     if wiek < 18:
